@@ -1,0 +1,32 @@
+body{  
+    background-color: rgb(248, 151, 201); 
+    color: lightcyan
+}
+
+h1 {
+    color: red;
+  }
+
+  h2 {
+    color: blue;
+  }
+
+  h3 {
+    color: rgb(174, 46, 174);
+  }
+
+  p {
+    color: green;
+  }
+
+  a:link {
+    color: honeydew;
+  }
+#maincontent {
+    font-family:Arial, Helvetica, sans-serif
+}
+.myparagraph {
+    font-size: 30px;
+}
+
+  
