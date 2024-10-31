@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css" />
+    <nav>
+        <a href="Tier List.html">Tier List</a>
+    </nav>
+</head>
+<body>
+    <h1>Contact Information</h1>
+    <form method="get" aria-labelledby="contact-form">
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" required aria-required="true"><br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required aria-required="true"><br><br>
+        
+        <label for="comments">Comments:</label><br>
+        <textarea name="comments" id="comments" rows="4" cols="40" aria-labelledby="comments-label"></textarea><br><br>
+        
+        <p id="higher-list-question">Which list should be higher on the list:</p>
+        <input type="radio" id="pasta" name="higher_list" value="Pasta" aria-labelledby="higher-list-question">
+        <label for="pasta">Pasta</label><br>
+        
+        <input type="radio" id="pop_tarts" name="higher_list" value="Pop_tarts" aria-labelledby="higher-list-question">
+        <label for="pop_tarts">Pop Tarts</label><br>
+        
+        <input type="radio" id="marshmallow" name="higher_list" value="Marshmallow" aria-labelledby="higher-list-question">
+        <label for="marshmallow">Marshmallow</label><br><br>
+        
+        <p id="s-tier-question">Which S tier list do you think should be lower:</p>
+        <input type="checkbox" id="food1" name="food1" value="Pizza" aria-labelledby="s-tier-question">
+        <label for="food1"> Pizza</label><br>
+        
+        <input type="checkbox" id="food2" name="food2" value="Oreos" aria-labelledby="s-tier-question">
+        <label for="food2"> Oreos</label><br>
+        
+        <input type="checkbox" id="food3" name="food3" value="Sour_Patch_Kids" aria-labelledby="s-tier-question">
+        <label for="food3"> Sour Patch Kids</label><br><br>
+        
+        <label for="food">Which food do you want to see next:</label>
+        <select name="food" id="food" aria-labelledby="food-label">
+            <option value="Hot_Dogs">Hot Dogs</option>
+            <option value="tomato">Tomato</option>
+            <option value="spaghetti">Spaghetti</option>
+            <option value="noodles">Noodles</option>
+        </select><br><br>
+        
+        <input type="submit" value="Submit">
+        <input type="reset">
+    </form>
+    <footer>
+        © 2024 Food Tier List
+    </footer>
+</body>
+</html>

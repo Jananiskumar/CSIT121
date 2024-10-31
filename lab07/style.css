@@ -1,0 +1,63 @@
+table, tr, td, th {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+td {
+    width: 400px;
+}
+
+img {
+    height: 100px;
+}
+
+thead {
+    background: white;
+}
+
+tbody tr:nth-of-type(1) {
+    background: rgb(4, 185, 246);
+}
+
+tbody tr:nth-of-type(2) {
+    background: rgb(20, 221, 20);
+}
+
+tbody tr:nth-of-type(3) {
+    background: yellow;
+}
+
+tbody tr:nth-of-type(4) {
+    background: orange;
+}
+
+tbody tr:nth-of-type(5) {
+    background: orangered;
+}
+
+h1 {
+    text-align: center;
+}
+
+body {
+    background-color: azure;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav {
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    width: 100%;
+  }
+  
+  nav a {
+    color: honeydew;
+    background-color: magenta;
+    text-decoration: none;
+    margin: 10px;
+    padding: 5px;
+  }
+  h2 {
+    text-align: center;
+  }
