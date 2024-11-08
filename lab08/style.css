@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f9f0;
+    background-image: url(images/Backgroundimage.jpg)
+}
+
+header {
+    color: black;
+    text-align: center;
+}
+
+#maincontent {
+    background-color: #e0f2e0;
+    padding-left: 80px;
+
+}
+
+p {
+line-height: 1.5;
+}
+
+a:link {
+    color: blue;
+    text-decoration: none;
+}
+.topnav {
+    background-color: lightgreen;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #e0f2e0;
+    color: seagreen;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+  
+
+  
