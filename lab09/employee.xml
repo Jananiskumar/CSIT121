@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<employees>
+<employees = xmlns:emp="https://jananiskumar.github.io/CSIT121/lab09/employee.xml">
     <employee id="emp_be1001">
         <firstname>Jitendra</firstname>
         <lastname>Kumar</lastname>
