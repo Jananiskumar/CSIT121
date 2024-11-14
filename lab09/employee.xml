@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<employees xmlns="https://github.com/employees">
-    <employee id="emp_be1001">
+     <employee id="emp_be1001">
         <firstname>Jitendra</firstname>
         <lastname>Kumar</lastname>
         <title>Engineer</title>
