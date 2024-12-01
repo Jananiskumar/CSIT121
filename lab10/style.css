@@ -1,0 +1,30 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url(backgroundimage.jpg);
+}
+nav {
+    background-color: purple;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+nav a {
+    color: papayawhip;
+    background-color: blueviolet;
+    text-decoration: none;
+    padding: 5px;
+    margin: 10px;
+}
+
+h1 {
+   text-align: center;
+}
+
+img {
+    height: 300px;
+    width: 500px;
+}
+section {
+    background-color: pink;
+}
