@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="lab01.html">Lab 1</a>
+        <a href="lab02.html">Lab 2</a>
+        <a href="lab03.html">Lab 3</a>
+        <a href="myfirstimage.html">Lab 4</a>
+        <a href="mysecondimage.html">Lab 4 part 2</a>
+        <a href="mythirdimage.html">Lab 4 part 3</a>
+        <a href="lab05.html">Lab 5</a>
+        <a href="lab06.html">Lab 6</a>
+        <a href="Tier List.html">Lab 7</a>
+        <a href="contact.html">Lab 7 part 2</a>
+        <a href="myfirstimage (1).html">Lab 8</a>
+        <a href="mysecondimage (1).html">Lab 8 part 2</a>
+        <a href="mythirdimage (1).html">Lab 8 part 3</a>
+        <a href="lab09.html">Lab 9</a>
+        <a href="what_is_geolocation.html">Lab 10</a>
+        <a href="why_is_it_important.html">Lab 10 part 2</a>
+        <a href="how_is_it_used.html">Lab 10 part 3</a>
+        <a href="sources.html">Lab 10 part 4</a>
+    </nav>
+    <h1>Contact Information</h1>
+    <form method="get" aria-labelledby="contact-form">
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" required aria-required="true"><br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required aria-required="true"><br><br>
+        
+        <label for="comments">Comments:</label><br>
+        <textarea name="comments" id="comments" rows="4" cols="40" aria-labelledby="comments-label"></textarea><br><br>
+        
+        <p id="higher-list-question">Which list should be higher on the list:</p>
+        <input type="radio" id="pasta" name="higher_list" value="Pasta" aria-labelledby="higher-list-question">
+        <label for="pasta">Pasta</label><br>
+        
+        <input type="radio" id="pop_tarts" name="higher_list" value="Pop_tarts" aria-labelledby="higher-list-question">
+        <label for="pop_tarts">Pop Tarts</label><br>
+        
+        <input type="radio" id="marshmallow" name="higher_list" value="Marshmallow" aria-labelledby="higher-list-question">
+        <label for="marshmallow">Marshmallow</label><br><br>
+        
+        <p id="s-tier-question">Which S tier list do you think should be lower:</p>
+        <input type="checkbox" id="food1" name="food1" value="Pizza" aria-labelledby="s-tier-question">
+        <label for="food1"> Pizza</label><br>
+        
+        <input type="checkbox" id="food2" name="food2" value="Oreos" aria-labelledby="s-tier-question">
+        <label for="food2"> Oreos</label><br>
+        
+        <input type="checkbox" id="food3" name="food3" value="Sour_Patch_Kids" aria-labelledby="s-tier-question">
+        <label for="food3"> Sour Patch Kids</label><br><br>
+        
+        <label for="food">Which food do you want to see next:</label>
+        <select name="food" id="food" aria-labelledby="food-label">
+            <option value="Hot_Dogs">Hot Dogs</option>
+            <option value="tomato">Tomato</option>
+            <option value="spaghetti">Spaghetti</option>
+            <option value="noodles">Noodles</option>
+        </select><br><br>
+        
+        <input type="submit" value="Submit">
+        <input type="reset">
+    </form>
+    <footer>
+        © 2024 Food Tier List
+    </footer>
+</body>
+</html>
